@@ -1,0 +1,152 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+height: 60vh;
+
+
+}
+.form{
+  width: 200%;
+position: relative;
+height: 100%;
+
+}
+
+.form input{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  color:  wheat;
+  background: transparent;
+  padding-top: 21px;
+border: none; 
+text-align: center;
+outline: none ;
+}
+::placeholder{
+  color: beige;
+}
+/*  */
+select{
+  width: 20%;
+  height: 20%;
+  color: black;
+  padding-top: 21px;
+  background: transparent;
+  border: none;
+  
+
+}
+
+.lable {
+  border-bottom: 1px solid  #5fa8d3;
+ left: 0%;
+}
+ label{
+/* position: absolute; */
+  font-size: 23px;
+  pointer-events: none;
+  left: 0%;
+
+ 
+}
+.lable::after {
+  content: "";
+/* position: absolute; */
+width: 100%;
+height: 100%;
+bottom: 0px;
+left: 0px;
+/* border-bottom: 1px solid #5fa8d3; */
+}
+
+
+form{
+  display: flex;
+justify-content: space-around;
+align-items: center;
+flex-direction: column;
+text-align: center;
+}
+fieldset{border: none;}
+.btn {
+  color: white;
+  background-color: rgb(7, 124, 114);
+  margin: 11px 10px;
+  padding: 10px 30px;
+  border: 2px solid;
+  border-radius: 15px;
+  cursor: pointer;
+ 
+
+}
+.btn:hover {
+  background-color: rgba(124, 215, 243, 0.842);
+}
+.container  {
+  text-align: center;
+  font-family: "Akaya Kanadaka", cursive;
+  margin-top: -25px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.im {
+  background-size: cover;
+  width: 100%;
+  height: 125%;
+
+  position: absolute;
+  z-index: -1;
+  opacity: 0.8;
+}
+.home{
+ height: 35px;
+ margin-left: 0px;
+ margin-top: 5px;
+ position: relative;
+}
+
+
+
+/* registration.php................................ */
+.co{
+  margin: 24px;
+  padding: 34px;
+  background-color: gray;
+  display: flex;
+  align-items: center;
+  line-height: 2.5;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 10%;
+
+}
+.login{     
+  text-align: center;
+background-color: rgb(50, 53, 238);
+   color: #fff;
+    padding: 1px 35px;
+   border-radius: 15px;
+   cursor: pointer;
+ 
+  
+}
+.login:link{
+ text-decoration: none;
+}
+.login:hover{
+background-color: rgba(27, 97, 177, 0.842);
+color : red;
+}
+.para{
+  font-style: normal;
+text-align: center;
+size: 30px;
+color:rgb(121, 232, 240);
+}
